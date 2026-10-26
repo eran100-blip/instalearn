@@ -6,9 +6,10 @@ and share clips with classmates in the built-in chat.
 
 <p align="center">
   <a href="docs/demo.mp4"><img src="docs/demo-preview.gif" width="270" alt="InstaLearn demo: swiping through learning clips"></a>
-  <br>
-  <a href="docs/demo.mp4"><b>▶ Watch the full 2-minute demo</b></a>
+ 
 </p>
+
+https://github.com/user-attachments/assets/d4da9159-cc1a-48a4-bfef-244abd3b375b
 
 <p align="center">
   <b>171 animated clips</b> · <b>23 courses</b> · <b>Hebrew + English</b> · <b>quizzes at 3 levels</b> · <b>real-time chat</b>
