@@ -1,12 +1,38 @@
 # InstaLearn 🎓
 
-**Learn in 15-second clips.** InstaLearn is a short-video learning feed for university courses: swipe through
-animated clips that each explain one concept, answer a quick question at the difficulty you chose,
+**Learn in 15-second clips.** InstaLearn turns university courses into a TikTok-style feed:
+swipe through short animated clips that each explain one concept, answer a quick question at the level you chose,
 and share clips with classmates in the built-in chat.
+
+<p align="center">
+  <a href="docs/demo.mp4"><img src="docs/demo-preview.gif" width="270" alt="InstaLearn demo: swiping through learning clips"></a>
+  <br>
+  <a href="docs/demo.mp4"><b>▶ Watch the full 2-minute demo</b></a>
+</p>
+
+<p align="center">
+  <b>171 animated clips</b> · <b>23 courses</b> · <b>Hebrew + English</b> · <b>quizzes at 3 levels</b> · <b>real-time chat</b>
+</p>
 
 Built with **Expo (React Native)** and **Supabase**. Runs on iOS, Android and the web.
 
+<div dir="rtl">
+
+### 🇮🇱 בקצרה
+**InstaLearn** היא אפליקציית למידה בסגנון טיקטוק ואינסטגרם – אבל כל סרטון בה מלמד משהו לתואר.
+גוללים בין סרטונים מונפשים של 15 שניות, כל אחד מסביר מושג אחד (הגדרה, משפט, נוסחה), עונים על שאלה ברמת הקושי שבחרתם,
+ושולחים סרטונים לחברים לכיתה בצ׳אט המובנה. יש קורסים בחדו״א 1, אנטומיה, הכנה לבחינת הלשכה ועוד – בעברית ובאנגלית.
+
+</div>
+
 ---
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screens.png" alt="Courses, quiz, a clip, the Read more sheet and chat">
+</p>
+<p align="center"><sub>Pick courses and difficulty · quiz cards in the feed · animated clips · "Read more" explanations · share clips in chat</sub></p>
 
 ## Features
 
@@ -59,7 +85,7 @@ All clips are rendered by the [clip pipeline](clip-pipeline/README.md) and store
 
 | Area | Tools |
 |---|---|
-| App | Expo SDK 57, React Native 0.86, React 19, TypeScript |
+| App | Expo SDK 58, React Native 0.88, React 19, TypeScript |
 | Navigation | Expo Router (file-based routes, native tabs) |
 | Video | `expo-video` |
 | Backend | Supabase: Auth, Postgres with row-level security, Realtime, Storage |
@@ -103,6 +129,7 @@ EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_xxxxxxxxxxxxxxxx
 ```bash
 npx expo start
 ```
+On Windows you can instead double-click **`start-app.bat`**: it installs packages, sets up the database and starts the app.
 Scan the QR code with Expo Go, or press `a` for Android, `i` for iOS or `w` for web.
 
 ## Scripts

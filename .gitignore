@@ -30,7 +30,8 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
+# local env files (never commit real keys – see .env.example)
+.env
 .env*.local
 
 # typescript
@@ -41,3 +42,20 @@ example
 # generated native folders
 /ios
 /android
+
+# Windows
+Thumbs.db
+
+# Python (clip pipeline)
+__pycache__/
+*.pyc
+clip-pipeline/out/
+
+# Source textbooks used while writing the content (large, not part of the app)
+books/
+
+# one-click start script state
+.setup-state.json
+
+# raw screen recordings (the compressed demo lives in docs/)
+video for git/
